@@ -82,7 +82,7 @@ def run_game():
         user_option, computer_option = choose_options()  # El usuario elige una opción y la computadora elige una opción aleatoria.
         user_wins, computer_wins = check_rules(user_option, computer_option, user_wins, computer_wins)  # Verifica quién gana la ronda.
         if check_winner(user_wins, computer_wins):
-            break
+            break                    
         
         
         
