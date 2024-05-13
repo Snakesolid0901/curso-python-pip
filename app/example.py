@@ -1,3 +1,4 @@
 import main
 
-print(main.run())
+print(main.data)
+main.run()
